@@ -1,3 +1,6 @@
+import * as CryptoJS from "crypto-js";
+
+// 블록만들기
 class Block {
     public index: number;
     public hash: string;
@@ -14,10 +17,10 @@ class Block {
     }
 }
 
-const genesisBlock: Block = new Block(0, "20202020", "", "Hello", 123456);
-
-// 블록체인은 블록의 연결 : 배열를 사용해보자
+const genesisBlock: Block = new Block(0, "20202020", "", "hello", 123456);
 
 let blockChain: Array<Block> = [genesisBlock];
 
 console.log(blockChain);
+
+export {}
