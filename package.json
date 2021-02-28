@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/20000coinbe/STUDY_BLOCKCHAIN#readme",
   "devDependencies": {
+    "@types/crypto-js": "^4.0.1",
+    "crypto-js": "^4.0.0",
     "typescript": "^4.2.2"
   }
 }
